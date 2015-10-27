@@ -12,7 +12,9 @@ public class MyClass {
 		
 		//Adding comments
 		//Additional comments
-		System.out.println("complete testing")
+		System.out.println("complete testing");
+		
+		//Testing is now complete
 	}
 
 }
