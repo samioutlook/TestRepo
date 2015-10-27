@@ -17,7 +17,7 @@ public class Mar {
 		
 		//another comment to be added
 		
-		system.out.println("end of testing");
+		System.out.println("end of testing");
 		
 		
  	}
