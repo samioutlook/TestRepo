@@ -9,6 +9,8 @@ public class MyClass {
 		System.out.println("testing");
 		System.out.println("hello");
 		System.out.println("testing");
+		
+		//Adding comments
 	}
 
 }
