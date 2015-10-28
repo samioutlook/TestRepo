@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="114198" started-at="2015-10-28T15:14:27Z" finished-at="2015-10-28T15:16:21Z">
+  <suite name="Suite" duration-ms="124728" started-at="2015-10-28T18:46:12Z" finished-at="2015-10-28T18:48:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="114198" started-at="2015-10-28T15:14:27Z" finished-at="2015-10-28T15:16:21Z">
+    <test name="Test" duration-ms="124728" started-at="2015-10-28T18:46:12Z" finished-at="2015-10-28T18:48:16Z">
       <class name="VC.Vcd">
-        <test-method status="PASS" signature="log()[pri:0, instance:VC.Vcd@4411d970]" name="log" duration-ms="114182" started-at="2015-10-28T11:14:27Z" finished-at="2015-10-28T11:16:21Z">
+        <test-method status="PASS" signature="log()[pri:0, instance:VC.Vcd@6442b0a6]" name="log" duration-ms="114332" started-at="2015-10-28T14:46:12Z" finished-at="2015-10-28T14:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- log -->
       </class> <!-- VC.Vcd -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="VC.CV">
+        <test-method status="PASS" signature="th()[pri:0, instance:VC.CV@380fb434]" name="th" duration-ms="10376" started-at="2015-10-28T14:48:06Z" finished-at="2015-10-28T14:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- th -->
+      </class> <!-- VC.CV -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

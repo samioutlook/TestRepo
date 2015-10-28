@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="VC.Vcd"/>
+      <class name="VC.CV"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
