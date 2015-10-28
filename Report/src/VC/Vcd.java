@@ -10,15 +10,15 @@ import org.testng.annotations.Test;
 
 public class Vcd {
 	
-	@Test
-	public void log() throws InterruptedException{
+		@Test
+		public void log() throws InterruptedException{
 		System.out.println("hello");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://jqueryui.com");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
 		
-		//adding comment - scrolling down on the page
+			//adding comment - scrolling down on the page
 			for (int second = 0;; second++) {
             if(second >=10){
                 break;
@@ -26,9 +26,9 @@ public class Vcd {
                 ((RemoteWebDriver) driver).executeScript("window.scrollBy(0,200)", "");
                 Thread.sleep(3000);
             }
-		//click on your element
+			//click on your element
 		
-		WebElement k = driver.findElement(By.xpath(".//*[@id='content']/div[2]/ul/li[8]/ul/li[2]/a"));
+			WebElement k = driver.findElement(By.xpath(".//*[@id='content']/div[2]/ul/li[8]/ul/li[2]/a"));
 			k.click();
 			Thread.sleep(4000);
 		
@@ -51,11 +51,12 @@ public class Vcd {
 	            }
 			driver.findElement(By.xpath(".//*[@id='sidebar']/aside[2]/ul/li[7]/a")).click();
 			Thread.sleep(4000);
-		driver.quit();
+			driver.quit();
+			System.out.println("Closing the browser now");
 		
 	}
-	@Test
-	public boolean isElementPresent(RemoteWebDriver driver, By by){
+		@Test
+		public boolean isElementPresent(RemoteWebDriver driver, By by){
 	    try{
 	        driver.findElement(by);
 	        return true;
