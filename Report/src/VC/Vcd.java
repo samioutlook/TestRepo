@@ -55,7 +55,7 @@ public class Vcd {
 			System.out.println("Closing the browser now");
 		
 	}
-		@Test
+		@Test 
 		public boolean isElementPresent(RemoteWebDriver driver, By by){
 	    try{
 	        driver.findElement(by);
@@ -63,5 +63,7 @@ public class Vcd {
 	    }catch(NoSuchElementException e){
 	        return false;
 	    }
-	}
+	
+	//End of testing 
+		}
 }
