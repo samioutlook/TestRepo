@@ -18,7 +18,7 @@ public class Vcd {
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
 		
-		
+		//adding comment - scrolling down on the page
 			for (int second = 0;; second++) {
             if(second >=10){
                 break;
@@ -26,8 +26,9 @@ public class Vcd {
                 ((RemoteWebDriver) driver).executeScript("window.scrollBy(0,200)", "");
                 Thread.sleep(3000);
             }
-			
-		WebElement	k = driver.findElement(By.xpath(".//*[@id='content']/div[2]/ul/li[8]/ul/li[2]/a"));
+		//click on your element
+		
+		WebElement k = driver.findElement(By.xpath(".//*[@id='content']/div[2]/ul/li[8]/ul/li[2]/a"));
 			k.click();
 			Thread.sleep(4000);
 		
